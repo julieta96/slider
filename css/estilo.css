@@ -9,3 +9,22 @@ body{
     display: none;
 }
 
+.myimg:first-child{
+    display: block;
+
+}
+
+#left , #right{
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#left{
+    float: left;
+}
+
+#right{
+    float: right;
+}
