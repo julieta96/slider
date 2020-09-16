@@ -4,6 +4,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+    text-align: center;
+}
+
 .myimg{
     margin: auto;
     display: none;
@@ -32,3 +36,4 @@ body{
 #right{
     float: right;
 }
+
