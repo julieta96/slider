@@ -20,7 +20,11 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
-
+#left:hover , #right:hover{
+    color:red;
+    font-size: 90px;
+    
+}
 #left{
     float: left;
 }
