@@ -1,11 +1,11 @@
 var n=-1;
-var slider;
-var bRight= document.getElementById("right");
-var bLeft= document.getElementById("left");
+var slider,bRight,bLeft;
 
 function slider(){
+    bRight= document.getElementById("right");
+    bLeft= document.getElementById("left");
     bRight.addEventListener("click" , right);
-    bRight.addEventListener("click", left);
+    bLeft.addEventListener("click", left);
 }
 
 function mostrarImagenes(n){
@@ -25,21 +25,34 @@ function mostrarImagenes(n){
 function left(){
     slider = document.getElementsByClassName("myimg");
 
-    if(n>=slider.length){
+    if(n>0){
        
         n--;
      }
 
+     if(n==(-1)){
+         n=1;
+     }
+
      mostrarImagenes(n);
+    /* alert("back");*/
 
 }
 
 function right(){
    slider = document.getElementsByClassName("myimg");
 
-   if(n<slider.length || n==0){
+   if(n<=slider.length){
        n++;
    }
 
+   if(n==3){
+       n=2;
+   }
+
    mostrarImagenes(n);
+
+   /*alert("next");*/
 }
+
+window.addEventListener("load", slider);
