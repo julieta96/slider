@@ -1,4 +1,4 @@
-var n=0;
+var n=-1;
 var slider;
 var bRight= document.getElementById("right");
 var bLeft= document.getElementById("left");
