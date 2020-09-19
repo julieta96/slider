@@ -26,7 +26,7 @@ h4{
 }
 #left:hover , #right:hover{
     color:red;
-    font-size: 90px;
+   /* font-size: 90px;*/
     
 }
 #left{
