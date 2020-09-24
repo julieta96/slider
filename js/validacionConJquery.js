@@ -4,4 +4,21 @@ $(document).ready(function(){
     var bRight = $("#right");
     var bLeft = $("#left");
     var slider = $(".myimg");
+
+    bRight.click(function(){
+
+    })
+
+    
+
+    bLeft.click(function(){
+
+    })
+
+
+    
 })
+
+function mostrarImagenes(n){
+    
+}
