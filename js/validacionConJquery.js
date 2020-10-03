@@ -9,7 +9,7 @@ $(document).ready(function(){
 
         alert(n++);
 
-        /*if(n<=slider.lenght-1){
+        if(n<=slider.lenght-1){
             n++;
         }
 
@@ -21,7 +21,7 @@ $(document).ready(function(){
             n=2;
         }
 
-        mostrarImagenes(n);*/
+        /*mostrarImagenes(n);*/
 
     })
 
@@ -31,7 +31,7 @@ $(document).ready(function(){
 
         alert(n--);
 
-        /*if(n>0){
+        if(n>0){
 
             n--;
 
@@ -41,7 +41,7 @@ $(document).ready(function(){
             n=1;
         }
 
-       mostrarImagenes(n);*/
+       /*mostrarImagenes(n);*/
 
     })
 
