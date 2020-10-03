@@ -37,7 +37,7 @@ $(document).ready(function(){
 
         }
 
-        if(n==(-1)/*|| n==0*/){
+        if(n==(-1)){
             n=1;
         }
 
