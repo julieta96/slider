@@ -46,6 +46,7 @@ $(document).ready(function(){
 })
 
 function mostrarImagenes(n){
+    slider=$(".myimg");
 
        for(var i =0 ; i=slider.lenght ; i++){
             
