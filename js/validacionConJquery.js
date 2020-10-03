@@ -7,7 +7,7 @@ $(document).ready(function(){
 
     bRight.click(function(){
 
-        if(n<=slider.lenght-1){
+        /*if(n<=slider.lenght-1){
             n++;
         }
 
@@ -19,7 +19,7 @@ $(document).ready(function(){
             n=2;
         }
 
-        mostrarImagenes(n);
+        mostrarImagenes(n);*/
 
     })
 
@@ -27,7 +27,7 @@ $(document).ready(function(){
 
     bLeft.click(function(){
 
-        if(n>0){
+        /*if(n>0){
 
             n--;
 
@@ -37,7 +37,7 @@ $(document).ready(function(){
             n=1;
         }
 
-       mostrarImagenes(n);
+       mostrarImagenes(n);*/
 
     })
 
@@ -46,13 +46,13 @@ $(document).ready(function(){
 })
 
 function mostrarImagenes(n){
-    slider=$(".myimg");
+    /*slider=$(".myimg");
 
        for(var i =0 ; i=slider.lenght ; i++){
             
             $(slider[i]).css("display" , "none");
         }
 
-        $(slider[n]).css("display", "block");
+        $(slider[n]).css("display", "block");*/
     
 }
