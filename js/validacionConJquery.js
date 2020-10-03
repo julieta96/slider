@@ -7,6 +7,8 @@ $(document).ready(function(){
 
     bRight.click(function(){
 
+        alert(n++);
+
         /*if(n<=slider.lenght-1){
             n++;
         }
@@ -26,6 +28,8 @@ $(document).ready(function(){
     
 
     bLeft.click(function(){
+
+        alert(n--);
 
         /*if(n>0){
 
