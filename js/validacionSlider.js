@@ -1,18 +1,19 @@
-var n=-1;
-var slider,bRight,bLeft;
+let n=0;
+let slider,bRight,bLeft, size;
+slider = document.getElementsByClassName("myimg");
+size= slider.length-1;
 
-function slider(){
+const show = ()=>{
+
     bRight= document.getElementById("right");
     bLeft= document.getElementById("left");
     bRight.addEventListener("click" , right);
     bLeft.addEventListener("click", left);
 }
 
-function mostrarImagenes(n){
+const mostrarImagenes = (n) =>{
 
-   slider = document.getElementsByClassName("myimg");
-
-   for(var i = 0; i<slider.length ; i++){
+   for(let i = 0; i<=size ; i++){
         
       slider[i].style.display="none";
 
@@ -22,37 +23,37 @@ function mostrarImagenes(n){
 
 }
 
-function left(){
-    slider = document.getElementsByClassName("myimg");
-
+const left = ()=>{
+   
     if(n>0){
        
         n--;
-     }
 
-     if(n==(-1)){
-         n=1;
+     }else{
+
+        n=0;
      }
 
      mostrarImagenes(n);
-    /* alert("back");*/
+   
 
 }
 
-function right(){
-   slider = document.getElementsByClassName("myimg");
+const right = ()=>{
 
-   if(n<=slider.length){
-       n++;
-   }
+   if(n<=size){
+           
+       n++; 
+    }
+    
+    if(n>size){
 
-   if(n==3){
-       n=2;
-   }
+       n=size;
+    }
 
    mostrarImagenes(n);
 
-   /*alert("next");*/
+ 
 }
 
-window.addEventListener("load", slider);
+window.addEventListener("load", show);

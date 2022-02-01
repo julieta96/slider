@@ -24,6 +24,24 @@ body{
 
 }
 
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade;
+  animation-duration: 3.0s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .6}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
+
+
 #left , #right{
     color: brown;
     font-size: 60px;
