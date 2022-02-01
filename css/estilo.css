@@ -4,13 +4,19 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h4{
-    text-align: center;
+.slider{ 
+     border-top: 35px #fff solid;   
+     margin:auto;
+     background:#BF815E;
+     padding: 50px;
+     width: 50%;
 }
 
 .myimg{
+
     margin: auto;
     display: none;
+    width: 100%;
 }
 
 .myimg:first-child{
@@ -26,14 +32,18 @@ h4{
 }
 #left:hover , #right:hover{
     color:red;
-   /* font-size: 90px;*/
-    
+    padding: 2px;
+    border: 3px red solid;
+    border-radius: 150px;
 }
 #left{
+
     float: left;
+    margin-left: 10%;
 }
 
 #right{
     float: right;
+    margin-right: 10%;
 }
 
