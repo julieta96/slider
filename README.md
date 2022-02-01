@@ -1,6 +1,6 @@
 ## SLIDER
 
-_Mini proyecto frontend, contiene imagenes que conforman un slider._
+_Mini proyecto frontend_
 
 ## Construido con 🛠️
 
